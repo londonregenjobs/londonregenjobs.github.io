@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Job: Project Manager"
+author: "Me"
 date:   2017-10-13 21:15:00
 categories: east-london housing development
 ---
