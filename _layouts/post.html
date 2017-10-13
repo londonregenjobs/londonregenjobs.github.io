@@ -5,10 +5,4 @@ layout: default
 <h1>{{ page.title }}</h1>
 <time>{{ page.date | date: "%-d %b %Y" }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}</time>
 
-{% for category in site.categories %}
-  <li><a name="{{ category | first }}">{{ category | first }}</a>
-    {% endfor %}
-  </li>
-{% endfor %}
-
 {{ content }}
