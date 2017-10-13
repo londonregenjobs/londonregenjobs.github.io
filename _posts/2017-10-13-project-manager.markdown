@@ -5,7 +5,7 @@ author: "Me"
 date:   2017-10-13 21:15:00
 categories: east-london housing development
 ---
-==Project Manager==
+#Project Manager
 Employer
 Date posted
 Closing date
@@ -13,22 +13,22 @@ Contract type
 Location
 Tags
 
-==Contact==
+#Contact
 Forename Surname
 Email
 
-==Overview==
+##Overview
 
 Overview goes here
 
-==Working here==
+##Working here
 
-==Skills/Experience==
+##Skills/Experience
 
-===Essential===
+###Essential
 Essential Skills
 
-===Nice to have===
+###Nice to have
 Other stuff
 
-==How to apply==
+##How to apply
