@@ -5,7 +5,8 @@
 				{% for page in site.pages %} {% if page.title %}
 				<li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
 				{% endif %} {% endfor %}
-				<li><a href="{{ "/jobs" | prepend: site.baseurl }}">Jobs</a></li>
+				<li><a href="{{ "/blog}}" | prepend: site.baserurl }}">Blog</a></li>
+				<li><a href="{{ "/archive" | prepend: site.baseurl }}">Archived jobs</a></li>
 			</ul>
 			</li>
 			</ul>
