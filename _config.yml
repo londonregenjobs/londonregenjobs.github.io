@@ -12,6 +12,9 @@ sass:
   sass_dir: _sass
 include: ['_pages']
 
+# Markdown handling
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
 markdown: kramdown
 
 kramdown:
