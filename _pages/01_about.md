@@ -4,7 +4,8 @@ title: About
 permalink: /about/
 ---
 
-About content goes here.
+This site was created to share regeneration jobs in London.
 
-* A list item
-* Another list item
+To submit a job, email <a href="mailto:infolondonregenjobs.com">info@londonregenjobs.com</a>
+
+If you'd like to advertise or have your posting featured, email me.

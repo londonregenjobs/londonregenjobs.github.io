@@ -4,6 +4,7 @@ title: Contact
 permalink: /contact/
 ---
 
-Contact content goes here.
-
-My e-mail is [info@londonregenjobs.com](mailto:info@londonregenjobs.com).
+Contact
+==
+Email: [info@londonregenjobs.com](mailto:info@londonregenjobs.com)
+Twitter: <a href="www.twitter.com/londonregenjobs">@londonregenjobs</a>
