@@ -11,5 +11,8 @@ github_username:  londonregenjobs
 sass:
   sass_dir: _sass
 include: ['_pages']
+
+markdown: kramdown
+
 kramdown:
   input: GFM
