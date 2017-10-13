@@ -3,7 +3,7 @@ layout: default
 ---
 
 <h2>Jobs</h2>
-{% for post in site.posts %}
+{% for post in site.jobs %}
 		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
 		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
 {% endfor %}
