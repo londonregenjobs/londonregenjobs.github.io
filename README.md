@@ -1,8 +1,6 @@
-# Python Job Board Build System
+# London Regen Jobs board
 
-This repo contains the build system and templates for http://pythonjobs.github.io/.
-
-See the [jobs repo](https://github.com/pythonjobs/jobs) for full documentation.
+Based on Python Jobs: http://pythonjobs.github.io/ - license below:
 
 # MIT License
 
