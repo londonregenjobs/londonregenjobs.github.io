@@ -5,7 +5,7 @@ author: "Me"
 date:   2017-10-13 21:15:00
 categories: east-london housing development
 ---
-# Project Manager
+## Project Manager
 Employer
 Date posted
 Closing date
@@ -13,8 +13,8 @@ Contract type
 Location
 Tags
 
-# Contact
-Forename Surname
+## Contact
+Forename Surnamea
 Email
 
 ## Overview
