@@ -2,26 +2,20 @@
 // foundation.zurb.com
 // Licensed under MIT Open Source
 
-/// If `true`, all elements will have transparent backgrounds when printed, to save on ink.
-/// @type Boolean
-/// @group global
-$print-transparent-backgrounds: true !default;
-$print-hrefs: true !default;
+////
+/// @group typography
+////
 
-// sass-lint:disable-all
+// scss-lint:disable all
 
 @mixin foundation-print-styles {
   .show-for-print { display: none !important; }
 
   @media print {
     * {
-      @if $print-transparent-backgrounds {
-        background: transparent !important;
-      }
-
-      box-shadow: none !important;
-
+      background: transparent !important;
       color: black !important; // Black prints faster: h5bp.com/s
+      box-shadow: none !important;
       text-shadow: none !important;
     }
 
@@ -38,9 +32,7 @@ $print-hrefs: true !default;
     // Display the URL of a link after the text
     a,
     a:visited { text-decoration: underline;}
-    @if $print-hrefs {
-      a[href]:after { content: ' (' attr(href) ')'; }
-    }
+    a[href]:after { content: ' (' attr(href) ')'; }
 
     // Don't display the URL for images or JavaScript/internal links
     .ir a:after,
@@ -53,7 +45,7 @@ $print-hrefs: true !default;
     // Prevent page breaks in the middle of a blockquote or preformatted text block
     pre,
     blockquote {
-      border: 1px solid $dark-gray;
+      border: 1px solid #999;
       page-break-inside: avoid;
     }
 
@@ -77,10 +69,5 @@ $print-hrefs: true !default;
     // Avoid page breaks after a heading
     h2,
     h3 { page-break-after: avoid; }
-
-    // Helper to re-allow page breaks in the middle of certain elements (e.g. pre, blockquote, tr)
-    .print-break-inside {
-      page-break-inside: auto;
-    }
   }
 }

@@ -1,14 +1,4 @@
-# Start Jekyll
+jekyll-foundation
+=================
 
-A guide to getting started with Jekyll.
-
-### [Read the tutorial!](https://taniarascia.com/make-a-static-website-with-jekyll)
-
-- Learn about static site generators
-- Install Ruby and Jekyll
-- Create a custom website running on Jekyll and Sass
-- Deploy a Jekyll site to GitHub pages
-
-## License
-
-The code is open source and available under the [MIT License](LICENSE.md).
+This is the workspace for a basic tutorial on adding Foundation 6 to a Jekyll 3 site. For the full tutorial visit [http://penguindreams.org/blog/jekyll-3-and-foundation-6/](http://penguindreams.org/blog/jekyll-3-and-foundation-6/)
