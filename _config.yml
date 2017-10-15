@@ -19,6 +19,13 @@ paginate: 10
 # Style of permalinks
 permalink: /:month-month:day-:year/:title.html/
 
+# Plugins
+plugins:
+    - jemoji
+    - jekyll-sitemap
+    - jekyll-feed
+    - jekyll-seo-tag
+
 # Variable format options for URL styles below
 # pretty                                          => /2009/04/29/slap-chop/index.html
 # /:month-month:day-:year/:title.html/            => 04-29-2009/slap-chop.html
