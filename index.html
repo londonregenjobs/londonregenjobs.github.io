@@ -2,10 +2,28 @@
 layout: default
 ---
 
-<h2>Jobs</h2>
-{% for post in site.jobs %}
-		<time>{{ post.date | date: "%b %-d, %Y" }}</time>
-		<h3><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h3>
-{% endfor %}
-
-<p>subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+<section class="center mw7">
+  <article>
+    {% for post in site.posts limit: 1 %}
+       <h1>{{ post.title }}</h1>
+      {{ post.content }}
+    {% endfor %}
+  </article>
+  <section>
+    <article>
+      <ul>
+        {% for post in paginator.posts %}
+          <li>
+            <a href="{{ post.url }}" title="{{post.title}}">
+              <date datetime="{{post.date}}">
+                {{ post.date | date_to_long_string }}
+              </date>
+              {{ post.title }}
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+      <p>...</a></p>
+    </article>
+  </section>
+</section>
