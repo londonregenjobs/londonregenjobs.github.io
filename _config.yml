@@ -31,11 +31,4 @@ plugins:
     - jekyll-feed
     - jekyll-seo-tag
 
-collections:
-  jobs:
-    output: true
-  blog:
-    output: true
-
 exclude: [Rakefile]
-  - README.md
