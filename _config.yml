@@ -31,6 +31,9 @@ plugins:
     - jekyll-seo-tag
 
 collections:
-  - jobs
+  jobs:
+    output: true
+  blog:
+    output: true  
 
 exclude: [Rakefile]

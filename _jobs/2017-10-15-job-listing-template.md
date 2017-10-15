@@ -1,7 +1,20 @@
 ---
-title: JKL
 layout: posts
-author: MRMRS
+job-title: Project Manager
+posted-date: 2017-10-15
+closing-date:
+contract-type:
+salary:
+location:
+application-link:
+description:
+contact-name:
+contact-email:
+contact-phone:
+contact-website:
+tags:
+featured:
+
 ---
 
 <p>
@@ -10,8 +23,8 @@ author: MRMRS
   to do to start writing is...write. Start dropping markdown or html files into the posts directory, run Jekyll, and deploy.
 </p>
 <p>
-  JKL is comprised of ~5kb of responsive type friendly CSS. No JS needed. When I say light, I mean light. 
-  It doesn't get much lighter than that. 
+  JKL is comprised of ~5kb of responsive type friendly CSS. No JS needed. When I say light, I mean light.
+  It doesn't get much lighter than that.
 </p>
 <p>
   Typography is ace.
@@ -21,4 +34,3 @@ author: MRMRS
   <!--https://twitter.com/jxnblk/status/281087996663582720-->
   Works on big desktops and small mobile phones.
 </p>
-
