@@ -30,7 +30,7 @@ plugins:
     - jekyll-feed
     - jekyll-seo-tag
 
-# UnComment once you have pygments installed. Used for code syntax highlighting.
-#pygments: true
+collections:
+  - jobs
 
 exclude: [Rakefile]
