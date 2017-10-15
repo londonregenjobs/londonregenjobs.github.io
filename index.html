@@ -6,7 +6,10 @@ layout: default
     <article>
         {% for post in paginator.posts %}
         <article class="center mw5 mw6-ns hidden ba mv4">
-                <h1 class="f4 bg-near-black"><a class="white mv0 pv2 ph3" href="{{ post.url }}"  title="{{post.title}}">{{ post.title }}</a></h1>
+                <h1 class="f4 bg-near-black f4 white mv0 pv2 ph3">
+                  <div class="pa4 lh-copy">
+                    <a class="f4 fw7 dib pa2 no-underline bg-animate bg-white hover-bg-light-blue black" href="{{ post.url }}"  title="{{post.title}}">{{ post.title }}</a></h1>
+                  </div>
                 <div class="pa3 bt">
                   <p class="f6 f5-ns lh-copy measure mv0">
                     <date class="f6 db gray" datetime="{{post.date}}">
