@@ -37,15 +37,5 @@ collections:
   blog:
     output: true
 
-defaults:
-  - scope:
-      type: jobs
-    values:
-      layout: jobs
-  - scope:
-      type: blog
-    values:
-      layout: blog
-
 exclude: [Rakefile]
   - README.md
