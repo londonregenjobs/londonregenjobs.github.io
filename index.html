@@ -4,10 +4,8 @@ layout: default
 <section class="center mw7">
   <section>
     <article>
-      <ul>
         {% for post in paginator.posts %}
-          <li>
-            <article class="center mw5 mw6-ns br3 hidden ba b--black-10 mv4">
+        <article class="center mw5 mw6-ns br3 hidden ba b--black-10 mv4">
                 <h1 class="f4 bg-near-white br3 br--top black-60 mv0 pv2 ph3"><a href="{{ post.url }}" title="{{post.title}}">{{ post.title }}</a></a></h1>
                 <div class="pa3 bt b--black-10">
                   <p class="f6 f5-ns lh-copy measure">
@@ -21,9 +19,6 @@ layout: default
                   </p>
                 </div>
               </article>
-          </li>
         {% endfor %}
-      </ul>
-      <p>...</a></p>
-    </article>
+      </article>
   </section>
