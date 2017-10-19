@@ -1,6 +1,7 @@
 ---
 layout: posts
 job-title: Designer
+employer: GLA
 posted-date: 2017-10-19
 closing-date: 2017-11-05
 contract-type: Permanent
@@ -13,7 +14,7 @@ contact-name:
 contact-email: glajobs@london.gov.uk
 contact-phone:
 contact-website: https://www.london.gov.uk
-tags: 
+tags:
 featured: no
 
 ---
