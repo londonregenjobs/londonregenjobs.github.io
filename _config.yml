@@ -31,4 +31,9 @@ plugins:
     - jekyll-feed
     - jekyll-seo-tag
 
+collections:
+  - jobs
+  - blog
+  - archives
+
 exclude: [Rakefile]
