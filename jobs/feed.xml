@@ -8,13 +8,13 @@ layout: none
     <description>{{ site.description | xml_escape }}</description>
     <link>{{ site.url }}</link>
     <atom:link href="{{ site.url }}/feed.xml" rel="self" type="application/rss+xml" />
-    {% for job in site.jobs limit:10 %}
+    {% for job in site.jobs reverse limit:10 %}
       <item>
         <title>{{ job.job-title | xml_escape }}</title>
         <description>{{ job.description | xml_escape }}</description>
-        <pubDate>{{ job.posted-date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ site.url }}/{{ job.url }}</link>
-        <guid isPermaLink="true">{{ site.url }}/{{ job.url }}</guid>
+        <pubDate>{{ job.posted-date | date: "%a, %d %b %Y" }}</pubDate>
+        <link>{{ site.url }}{{ job.url }}</link>
+        <guid isPermaLink="true">{{ site.url }}{{ job.url }}</guid>
       </item>
     {% endfor %}
   </channel>
