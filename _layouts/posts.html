@@ -6,18 +6,20 @@
   <div class="f6 f5-ns lh-copy measure mv0">
     <h1>{{page.job-title}}</h1>
       <h2>{{page.employer}}</h2>
-        <p>Salary: {{page.salary}}
-        <p>Closing date: {{page.closing-date}}
-        <p>Contract type: {{page.contract-type}}
-        <p>Link to apply: {{page.application-link}}
+      <ul class="list-style-type: none;">
+        <li><i class='fa fa-pound-sign'></i> {{page.salary}}
+        <li>Closing date: {{page.closing-date}}
+        <li>Contract type: {{page.contract-type}}
+        <li><i class='fa fa-link'></i> {{page.application-link}}
+        </ul>
           <hr />
     {{content}}
     <h2>Contact details</h2>
     <ul>
-      <li>Contact name: {{page.contact-name}}
+      <li><i class='fa fa-user'></i> {{page.contact-name}}
       <li><i class='fa fa-envelope'></i> {{page.contact-email}}
       <li><i class='fa fa-phone'></i> {{page.contact-phone}}
-      <li><i class='fa fa-globe'></i>Website: {{page.contact-website}}
+      <li><i class='fa fa-globe'></i> {{page.contact-website}}
     </ul>
   </div>
   {% include _footer.html %}
