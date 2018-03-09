@@ -3,12 +3,17 @@
   {% include _head.html %}
 <body>
   {% include _header.html %}
-  <article>
+  <article class="center mw5 mw6-ns hidden ba mv4">
     <!-- This is where the title: in your front matter gets dropped in.-->
-    <h1>
-      {{page.title}}
-    </h1>
+    <h1 class="f4 bg-near-black mv0 pv2 ph3">
+      <a class="fw7 dib no-underline light-yellow" href="{{ job.url }}"  title="{{job.job-title}}">{{job.employer}} | {{ job.job-title }}</a></h1>
     <!-- This is where post content lives -->
+<div class="pa3 bt">
+    <p class="f6 f5-ns lh-copy measure mv0">
+      <date class="f6 db gray" datetime="{{job.posted-date}}">
+        {{ job.posted-date | date_to_long_string }}
+      </date>
+    <p>{{job.description}}
       {{content}}
     <!-- end of post content -->
   </article>
