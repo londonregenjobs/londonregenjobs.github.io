@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
   {% include _head.html %}
-<body class="bg-light-yellow">
+<body class="bg-light-yellow sans-serif">
   {% include _header.html %}
   <h1>{{page.employer}} | {{page.job-title}}</h1>
-  Salary: {{salary}}
-  Closing date: {{closing-date}}
-  Contract type: {{contract-type}}
-  Link to apply: {{application-link}}
+  <p>Salary: {{page.salary}}
+  <p>Closing date: {{page.closing-date}}
+  <p>Contract type: {{page.contract-type}}
+  <p>Link to apply: {{page.application-link}}
   {{content}}
   <h2>Contact details</h2>
-  Contact name: {{contact-name}}
-  Email: {{contact-email}}
-  Phone: {{contact-phone}}
-  Website: {{contact-website}}
+  <p>Contact name: {{page.contact-name}}
+  <p>Email: {{page.contact-email}}
+  <p>Phone: {{page.contact-phone}}
+  <p>Website: {{page.contact-website}}
   {% include _footer.html %}
 </body>
 </html>
