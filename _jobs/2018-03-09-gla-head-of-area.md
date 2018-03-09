@@ -1,13 +1,14 @@
 ---
 layout: posts
 job-title: Head of Area – North East (Investment and Operations, Housing & Land)
+employer: GLA
 posted-date: 2018-03-09
 closing-date: 2018-03-26
 contract-type: permanent
 salary: £83,237 / year
 location: 
 application-link: https://www.london.gov.uk/about-us/jobs-and-working-city-hall/current-vacancies/gla2229-head-area-north-east-investment-and-operations-housing-land
-description:
+description: You will be responsible for delivering the Mayor’s multi-billion pound affordable housing investment programmes across nine of London’s boroughs and with a wide range of investment partners.
 contact-name:
 contact-email: glajobs@london.gov.uk 
 contact-phone:
