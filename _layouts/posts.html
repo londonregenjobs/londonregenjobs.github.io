@@ -3,12 +3,17 @@
   {% include _head.html %}
 <body class="bg-light-yellow">
   {% include _header.html %}
-  <h1>{{employer}} | {{job-title}}</h1>
+  <h1>{{page.employer}} | {{page.job-title}}</h1>
   Salary: {{salary}}
   Closing date: {{closing-date}}
   Contract type: {{contract-type}}
   Link to apply: {{application-link}}
   {{content}}
+  <h2>Contact details</h2>
+  Contact name: {{contact-name}}
+  Email: {{contact-email}}
+  Phone: {{contact-phone}}
+  Website: {{contact-website}}
   {% include _footer.html %}
 </body>
 </html>
