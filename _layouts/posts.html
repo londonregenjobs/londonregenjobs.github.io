@@ -4,16 +4,31 @@
 <body class="bg-light-yellow sans-serif">
   {% include _header.html %}
   <div class="pa3 pa5-ns">
-    <h1>{{page.job-title}}</h1>
-      <h2>{{page.employer}}</h2>
-      <ul class="list">
-        <li><i class='fa fa-pound-sign'></i> {{page.salary}}
-        <li>Closing date: {{page.closing-date}}
-        <li>Contract type: {{page.contract-type}}
-        <li><i class='fa fa-link'></i> {{page.application-link}}
-        </ul>
-          <hr />
-    <p class="f5 lh-copy measure-wide">{{content}}</p>
+    <h1>{{page.job-title}}, {{page.employer}}</h1>
+    <div class="pa4">
+        <div class="overflow-auto">
+          <table class="f6 w-100 mw8 center" cellspacing="0">
+            <thead>
+              <tr>
+                <th>Salary</i> </th>
+                <th>Closing date</th>
+                <th>Contract type</th>
+                <th><i class='fa fa-link'></i></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>{{page.salary}}</td>
+                <td>{{page.closing-date}}</td>
+                <td>{{page.contract-type}}</td>
+                <td>{{page.application-link}}</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+    <p class="f5 lh-copy measure">{{content}}</p>
     <h2>Contact details</h2>
     <ul class="list">
       <li><i class='fa fa-user'></i> {{page.contact-name}}
