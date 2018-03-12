@@ -5,15 +5,15 @@
   {% include _header.html %}
   <div class="mw9 center ph3-ns">
     <div class="cf ph2-ns">
-        <h1>{{page.job-title}}, {{page.employer}}</h1>
       <div class="fl w-100 w-70-ns pa2">
-        <div class="bg-light-yellow pv4">
-          {{content}}
+        <div class="bg-light-yellow pv2p ph2">
+          <h1>{{page.job-title}}, {{page.employer}}</h1>
+          <p>{{content}}</p>
         </div>
       </div>
 
       <div class="fl w-100 w-30-ns pa2">
-        <div class="outline bg-light-yellow pv4 ph4">
+        <div class="outline bg-light-yellow pv2 ph2">
           <h2>Job information</h2>
           <p>Salary: {{page.salary}}</p>
           <p>Closing date: {{page.closing-date}}</p>
