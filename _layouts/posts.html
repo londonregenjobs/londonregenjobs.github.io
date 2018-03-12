@@ -5,12 +5,12 @@
   {% include _header.html %}
   <div class="mw9 center ph3-ns">
     <div class="cf ph2-ns">
+      <h1>{{page.job-title}}, {{page.employer}}</h1>
       <div class="fl w-100 w-70-ns pa2">
         <div class="bg-light-yellow pv2 ph3">
-          <h1>{{page.job-title}}, {{page.employer}}</h1>
-          <p class="fw4 mid-gray i">Posted {{page.posted-date|date_to_long_string}}
+          <time class="fw6 gray i">Posted {{page.posted-date|date_to_long_string}}</time>
           <p>{{content}}</p>
-           <a class="f6 link dim ph3 pv2 mb2 dib white bg-black tc" href="{{page.application-link}}">Apply for this job</a>
+           <a class="f6 link dim br3 ph3 pv2 mb2 dib light-yellow bg-black center" href="{{page.application-link}}">Apply for this job</a>
         </div>
       </div>
 
@@ -58,7 +58,7 @@
             {% if page.application-link %}
             <tr>
               <th><i class='fa fa-globe'></i></th>
-              <td>< href="page.contact-website">{{page.contact-website}}<a></td>
+              <td><a href="{{page.contact-website}}">{{page.contact-website}}<a></td>
             </tr>
             {% endif %}
           </table>
