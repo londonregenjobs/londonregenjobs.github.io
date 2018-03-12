@@ -10,12 +10,12 @@
         <div class="bg-light-yellow pv2 ph3">
           <time class="fw6 gray i">Posted {{page.posted-date|date_to_long_string}}</time>
           <p>{{content}}</p>
-           <a class="f6 link dim br3 ph3 pv2 mb2 dib light-yellow bg-black item-center" href="{{page.application-link}}">Apply for this job</a>
+           <a class="f6 link dim br3 ph3 pv2 mb2 dib light-yellow bg-black tc" href="{{page.application-link}}">Apply for this job</a>
         </div>
       </div>
 
       <div class="fl w-100 w-30-ns pa2">
-        <div class="outline bg-light-yellow pv2 ph2">
+        <div class="outline bg-light-yellow pv2 ph3">
           <h2>Job information</h2>
           <table>
             <tr>
@@ -40,25 +40,25 @@
           </tr>
           {% if page.contact-name %}
             <tr>
-              <th><i class='fa fa-user'></i></th>
+              <th align="left"><i class='fa fa-user'></i></th>
               <td>{{page.contact-name}}</td>
             </tr>
             {% endif %}
             {% if page.contact-email %}
             <tr>
-              <th><i class='fa fa-envelope'></i></th>
+              <th align="left"><i class='fa fa-envelope'></i></th>
               <td>{{page.contact-email}}</td>
             </tr>
             {% endif %}
             {% if page.contact-phone %}
             <tr>
-              <th><i class='fa fa-phone'></i></th>
+              <th align="left"><i class='fa fa-phone'></i></th>
               <td>{{page.contact-phone}}</td>
             </tr>
             {% endif %}
             {% if page.application-link %}
             <tr>
-              <th><i class='fa fa-globe'></i></th>
+              <th align="left"><i class='fa fa-globe'></i></th>
               <td><a class="black link dim" href="{{page.contact-website}}">{{page.contact-website}}<a></td>
             </tr>
             {% endif %}
