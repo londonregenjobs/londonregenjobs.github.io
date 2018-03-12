@@ -5,12 +5,12 @@
   {% include _header.html %}
   <div class="mw9 center ph3-ns">
     <div class="cf ph2-ns">
-      <h1>{{page.job-title}}, {{page.employer}}</h1>
+      <h1 class="ph3">{{page.job-title}}, {{page.employer}}</h1>
       <div class="fl w-100 w-70-ns pa2">
         <div class="bg-light-yellow pv2 ph3">
           <time class="fw6 gray i">Posted {{page.posted-date|date_to_long_string}}</time>
           <p>{{content}}</p>
-           <a class="f6 link dim br3 ph3 pv2 mb2 dib light-yellow bg-black center" href="{{page.application-link}}">Apply for this job</a>
+           <a class="f6 link dim br3 ph3 pv2 mb2 dib light-yellow bg-black item-center" href="{{page.application-link}}">Apply for this job</a>
         </div>
       </div>
 
@@ -32,12 +32,13 @@
             </tr>
             <tr>
               <th align="left">Link</th>
-              <td><a href="{{page.application-link}}">{{page.application-link}}</a></td>
+              <td><a class="black link dim" href="{{page.application-link}}">{{page.application-link}}</a></td>
             </tr>
-          </table>
-          <h2>Contact details</h2>
-          <table>
-            {% if page.contact-name %}
+          <tr>
+          </tr>
+          <tr><h3>Contact details</h3>
+          </tr>
+          {% if page.contact-name %}
             <tr>
               <th><i class='fa fa-user'></i></th>
               <td>{{page.contact-name}}</td>
@@ -58,7 +59,7 @@
             {% if page.application-link %}
             <tr>
               <th><i class='fa fa-globe'></i></th>
-              <td><a href="{{page.contact-website}}">{{page.contact-website}}<a></td>
+              <td><a class="black link dim" href="{{page.contact-website}}">{{page.contact-website}}<a></td>
             </tr>
             {% endif %}
           </table>
