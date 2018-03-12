@@ -5,9 +5,9 @@
   {% include _header.html %}
   <div class="mw9 center ph3-ns">
     <div class="cf ph2-ns">
-      <h1 class="ph3">{{page.job-title}}, {{page.employer}}</h1>
+      <h1 class="ph5">{{page.job-title}}, {{page.employer}}</h1>
       <div class="fl w-100 w-70-ns pa2">
-        <div class="bg-light-yellow pv2 ph3">
+        <div class="bg-light-yellow pv2 ph5">
           <time class="fw6 gray i">Posted {{page.posted-date|date_to_long_string}}</time>
           <p>{{content}}</p>
            <div class="center tc"><a class="tc f6 link dim br3 ph3 pv2 mb2 dib light-yellow bg-black grow" href="{{page.application-link}}">Apply for this job</a>
@@ -41,6 +41,12 @@
             <th><h3>Contact details</h3></th>
             <td></td>
           </tr>
+          {% if page.contact-name == null and page.contact-phone == null and page.contact-email == null and page.contact-website == null %}
+          <tr>
+            <th class="fw1 i" align="left">None supplied</th>
+            <td></td>
+          </tr>
+          {% endif %}
           {% if page.contact-name %}
             <tr>
               <th align="left"><i class='fa fa-user'></i></th>
@@ -59,7 +65,7 @@
               <td>{{page.contact-phone}}</td>
             </tr>
             {% endif %}
-            {% if page.application-link %}
+            {% if page.contact-website %}
             <tr>
               <th align="left"><i class='fa fa-globe'></i></th>
               <td><a class="black link dim" href="{{page.contact-website}}">{{page.contact-website}}<a></td>
