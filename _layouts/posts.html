@@ -8,6 +8,7 @@
       <div class="fl w-100 w-70-ns pa2">
         <div class="bg-light-yellow pv2p ph2">
           <h1>{{page.job-title}}, {{page.employer}}</h1>
+          <p class="mid-gray dim">Posted {{page.posted-date|date_to_long_string}}
           <p>{{content}}</p>
         </div>
       </div>
@@ -22,7 +23,7 @@
             </tr>
             <tr>
               <th align="left">Closing date</th>
-              <td>{{page.closing-date}}</td>
+              <td>{{page.closing-date | date_to_long_string }}</td>
             </tr>
             <tr>
               <th align="left">Contract type</th>
