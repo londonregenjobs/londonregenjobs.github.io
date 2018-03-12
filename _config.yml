@@ -17,6 +17,8 @@ googleID: 108153621-1
 # Pagination variable for how many posts to show in a list
 paginate: 10
 
+repository: londonregenjobs/londonregenjobs
+
 # Style of permalinks
 # Variable format options for URL styles below
 # pretty                                          => /2009/04/29/slap-chop/index.html
