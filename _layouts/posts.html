@@ -6,10 +6,11 @@
   <div class="mw9 center ph3-ns">
     <div class="cf ph2-ns">
       <div class="fl w-100 w-70-ns pa2">
-        <div class="bg-light-yellow pv2p ph2">
+        <div class="bg-light-yellow pv2 ph3">
           <h1>{{page.job-title}}, {{page.employer}}</h1>
-          <p class="mid-gray dim">Posted {{page.posted-date|date_to_long_string}}
+          <p class="fw4 mid-gray">Posted {{page.posted-date|date_to_long_string}}
           <p>{{content}}</p>
+          <p class="center"><a href="{{page.application-link}}">Apply for this job</a></p>
         </div>
       </div>
 
@@ -31,27 +32,34 @@
             </tr>
             <tr>
               <th align="left">Link</th>
-              <td>{{page.application-link}}</td>
+              <td><a href="{{page.application-link}}">{{page.application-link}}</a></td>
             </tr>
           </table>
           <h2>Contact details</h2>
           <table>
+            {% if page.contact-name %}
             <tr>
               <th><i class='fa fa-user'></i></th>
               <td>{{page.contact-name}}</td>
             </tr>
+            {% endif %}
+            {% if page.contact-email %}
             <tr>
               <th><i class='fa fa-envelope'></i></th>
               <td>{{page.contact-email}}</td>
             </tr>
+            {% endif %}
+            {% if page.contact-phone %}
             <tr>
               <th><i class='fa fa-phone'></i></th>
               <td>{{page.contact-phone}}</td>
             </tr>
+            {% if page.application-link %}
             <tr>
               <th><i class='fa fa-globe'></i></th>
               <td>{{page.contact-website}}</td>
             </tr>
+            {% endif %}
           </table>
         </div>
       </div>
