@@ -15,17 +15,43 @@
       <div class="fl w-100 w-30-ns pa2">
         <div class="outline bg-light-yellow pv2 ph2">
           <h2>Job information</h2>
-          <p>Salary: {{page.salary}}</p>
-          <p>Closing date: {{page.closing-date}}</p>
-          <p>Contract type: {{page.contract-type}}</p>
-          <p>Link: {{page.application-link}}</p>
+          <table>
+            <tr>
+              <th>Salary</th>
+              <td>{{page.salary}}</td>
+            </tr>
+            <tr>
+              <th>Closing date</th>
+              <td>{}{page.closing-date}}</td>
+            </tr>
+            <tr>
+              <th>Contract type</th>
+              <td>{{page.contract-type}}</td>
+            </tr>
+            <tr>
+              <th>Link</th>
+              <td>{{page.application-link}}</td>
+            </tr>
+          </table>
           <h2>Contact details</h2>
-          <ul class="list">
-            <li><i class='fa fa-user'></i> {{page.contact-name}}
-            <li><i class='fa fa-envelope'></i> {{page.contact-email}}
-            <li><i class='fa fa-phone'></i> {{page.contact-phone}}
-            <li><i class='fa fa-globe'></i> {{page.contact-website}}
-          </ul>
+          <table>
+            <tr>
+              <th><i class='fa fa-user'></i></th>
+              <td>{{page.contact-name}}</td>
+            </tr>
+            <tr>
+              <th><i class='fa fa-envelope'></i></th>
+              <td>{{page.contact-email}}</td>
+            </tr>
+            <tr>
+              <th><i class='fa fa-phone'></i></th>
+              <td>{{page.contact-phone}}</td>
+            </tr>
+            <tr>
+              <th><i class='fa fa-globe'></i></th>
+              <td>{{page.contact-website}}</td>
+            </tr>
+          </table>
         </div>
       </div>
     </div>
