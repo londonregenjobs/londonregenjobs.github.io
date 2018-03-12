@@ -4,15 +4,15 @@ job-title: Senior Engagement Officer
 employer: OPDC
 posted-date: 2018-03-09
 closing-date: 2018-03-28
-contract-type: permanent
+contract-type: Permanent
 salary: £42,664 / year
-location:
+location: London
 application-link: http://bit.ly/2p7UPk9
 description: This exciting role will  suit an individual with passion, drive and ideas to shape the OPDC Engagement Strategy and to deliver the work-programme with and for local people at Old Oak and Park Royal, West London.
 contact-name:
 contact-email:
 contact-phone:
-contact-website: www.jobs.gla.gov.uk
+contact-website: 
 tags: GLA
 featured: no
 
