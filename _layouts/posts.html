@@ -10,7 +10,7 @@
           <h1>{{page.job-title}}, {{page.employer}}</h1>
           <p class="fw4 mid-gray i">Posted {{page.posted-date|date_to_long_string}}
           <p>{{content}}</p>
-          <p class="center"><a href="{{page.application-link}}">Apply for this job</a></p>
+           <a class="f6 link dim ph3 pv2 mb2 dib white bg-black tc" href="{{page.application-link}}">Apply for this job</a>
         </div>
       </div>
 
@@ -58,7 +58,7 @@
             {% if page.application-link %}
             <tr>
               <th><i class='fa fa-globe'></i></th>
-              <td>{{page.contact-website}}</td>
+              <td>< href="page.contact-website">{{page.contact-website}}<a></td>
             </tr>
             {% endif %}
           </table>
