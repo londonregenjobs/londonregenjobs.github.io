@@ -7,7 +7,7 @@ closing-date: 2018-03-28
 contract-type: permanent
 salary: £42,664 / year
 location:
-application-link: https://www.london.gov.uk/about-us/jobs-and-working-city-hall/current-vacancies/opdc-003116-senior-engagement-officer-opdc
+application-link: http://bit.ly/2p7UPk9
 description: This exciting role will  suit an individual with passion, drive and ideas to shape the OPDC Engagement Strategy and to deliver the work-programme with and for local people at Old Oak and Park Royal, West London.
 contact-name:
 contact-email:
