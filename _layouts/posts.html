@@ -3,20 +3,16 @@
   {% include _head.html %}
 <body class="bg-light-yellow sans-serif">
   {% include _header.html %}
-  <h1>{{page.job-title}}, {{page.employer}}</h1>
-
   <div class="mw9 center ph3-ns">
     <div class="cf ph2-ns">
-      <div class="fl w-100 w-third-ns pa2">
-        <div class="bg-light-yellow pv4">
-        </div>
-      </div>
-      <div class="fl w-50 w-third-ns pa2">
+        <h1>{{page.job-title}}, {{page.employer}}</h1>
+      <div class="fl w-100 w-70-ns pa2">
         <div class="bg-light-yellow pv4">
           {{content}}
         </div>
       </div>
-      <div class="fl w-50 w-third-ns pa2">
+
+      <div class="fl w-100 w-30-ns pa2">
         <div class="outline bg-light-yellow pv4">
           <p>Salary: {{page.salary}}</p>
           <p>Closing date: {{page.closing-date}}</p>
